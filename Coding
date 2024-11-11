@@ -1,0 +1,15 @@
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+  background(2);
+let numberOfEmote = 11;
+let x = 10;
+let y = height / 4;
+textSize(50);
+  for (let i = 1; i < numberOfEmote; i++) {
+    text('🦖', x , y);
+    x += 50
+  }
+}
